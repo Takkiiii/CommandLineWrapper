@@ -26,7 +26,7 @@ namespace CommandLineWrapper
                     TokenSource.Token.Register(() =>
                     {
                         process?.Kill();
-                        stderr?.Report("Process is canceled.");
+                        throw new OperationCanceledException();
                     });
                     process.OutputDataReceived += (_, e) =>
                     {
@@ -53,7 +53,7 @@ namespace CommandLineWrapper
                     if (isTimedOut)
                         throw new TimeoutException();
                 }
-            });
+            }).ConfigureAwait(false);
         }
 
         public void Cancel() => TokenSource.Cancel();
