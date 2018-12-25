@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineWrapper", "CommandLineWrapper\CommandLineWrapper.csproj", "{22EC2F96-D45A-452A-8F0E-1A61BE0E8961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineWrapper.Tests", "CommandLineWrapper.Tests\CommandLineWrapper.Tests.csproj", "{7DF27A5C-6C80-4E64-B0EE-F8446089E8B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EC2F96-D45A-452A-8F0E-1A61BE0E8961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EC2F96-D45A-452A-8F0E-1A61BE0E8961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EC2F96-D45A-452A-8F0E-1A61BE0E8961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EC2F96-D45A-452A-8F0E-1A61BE0E8961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF27A5C-6C80-4E64-B0EE-F8446089E8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF27A5C-6C80-4E64-B0EE-F8446089E8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF27A5C-6C80-4E64-B0EE-F8446089E8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF27A5C-6C80-4E64-B0EE-F8446089E8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
